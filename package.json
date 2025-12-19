@@ -1,0 +1,21 @@
+{
+  "name": "cyrene-assistant",
+  "version": "1.0.0",
+  "description": "Cyrene Assistant WA Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "fs-extra": "^11.1.1",
+    "readline-sync": "^1.4.10",
+    "moment": "^2.29.4",
+    "chalk": "^5.3.0",
+    "figlet": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
